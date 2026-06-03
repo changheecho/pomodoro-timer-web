@@ -1,0 +1,49 @@
+h3 {
+  font-size: 2rem;
+  font-weight: 700;
+  letter-spacing: 0.4em;
+  text-transform: uppercase;
+  opacity: 0.9;
+}
+
+.field {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.field label {
+  font-size: 0.95rem;
+  opacity: 0.85;
+}
+
+.field input {
+  width: 8rem;
+  padding: 0.5rem 0.8rem;
+  font-size: 1.4rem;
+  font-weight: 600;
+  text-align: center;
+  color: #c0392b;
+  background: #fff;
+  border: 2px solid rgba(255, 255, 255, 0.8);
+  border-radius: 4px;
+  outline: none;
+}
+
+.btn-confirm {
+  padding: 0.6rem 2rem;
+  font-size: 1rem;
+  font-weight: 600;
+  color: #fff;
+  background: transparent;
+  border: 2px solid rgba(255, 255, 255, 0.8);
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background 0.15s, color 0.15s;
+}
+
+.btn-confirm:hover {
+  background: #fff;
+  color: #c0392b;
+}

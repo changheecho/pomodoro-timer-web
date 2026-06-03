@@ -1,0 +1,78 @@
+*, *::before, *::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  min-height: 100vh;
+  background-color: #c0392b;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Segoe UI', Arial, sans-serif;
+  color: #fff;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2rem;
+}
+
+h1 {
+  font-size: 2rem;
+  font-weight: 700;
+  letter-spacing: 0.4em;
+  text-transform: uppercase;
+  opacity: 0.9;
+}
+
+#timer {
+  font-size: 7rem;
+  font-weight: 700;
+  letter-spacing: 0.05em;
+  line-height: 1;
+}
+
+.controls {
+  display: flex;
+  gap: 1rem;
+  margin-top: 0.5rem;
+}
+
+.btn {
+  padding: 0.6rem 1.6rem;
+  font-size: 1rem;
+  font-weight: 600;
+  color: #fff;
+  background: transparent;
+  border: 2px solid rgba(255, 255, 255, 0.8);
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background 0.15s, color 0.15s;
+}
+
+.btn:hover {
+  background: #fff;
+  color: #c0392b;
+}
+
+#settings {
+  position: fixed;
+  top: 1.2rem;
+  right: 1.4rem;
+  font-size: 1.5rem;
+  color: rgba(255, 255, 255, 0.8);
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  transition: color 0.15s, transform 0.2s;
+  line-height: 1;
+}
+
+#settings:hover {
+  color: #fff;
+  transform: rotate(30deg);
+}
