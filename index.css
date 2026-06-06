@@ -29,6 +29,13 @@ h1 {
   opacity: 0.9;
 }
 
+#current-time {
+  font-size: 1.2rem;
+  font-weight: 400;
+  opacity: 0.75;
+  letter-spacing: 0.1em;
+}
+
 #timer {
   font-size: 7rem;
   font-weight: 700;
